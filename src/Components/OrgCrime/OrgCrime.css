@@ -1,0 +1,33 @@
+.orgSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.tittle {
+    color: #E06B69;
+    font-family: "Stick No Bills", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 24px;
+    border-bottom: 4px solid #E06B69 ;
+}
+
+.orgSection img {
+    position: absolute;
+    right: 25%;
+    cursor: pointer;
+}
+
+@media (max-width: 425px) {
+    .tittle {
+        font-size: 30px;
+    }
+
+    .orgSection img {
+        width: 10%;
+        right: 25px;
+    }
+  }
